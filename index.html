@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced jQuery CMS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Article Management</h1>
+        <form id="article-form">
+            <input type="hidden" id="article-id">
+            <input type="text" id="article-title" placeholder="Article Title" required>
+            <textarea id="article-content" placeholder="Article Content" required></textarea>
+            <button type="submit">Add Article</button>
+        </form>
+        <input type="text" id="search" placeholder="Search Articles">
+        <div id="articles-list"></div>
+    </div>
+</body>
+</html>
